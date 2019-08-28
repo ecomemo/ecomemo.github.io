@@ -7,12 +7,16 @@
 .yellow{
 	color: #fbf7e2;
 }
+.pin-yellow{
+	background: #FFFF00;
+}
 .bg-yellow{
 	background: #fbf7e2;
 }
 .product-img{
-	width: 300px;
-	height: 200px;
+	width: 99%;
+    margin-top: -80px;
+    margin-bottom: 20px;
 }
 .bg-top{
 	background: rgb(119, 40, 73);
@@ -53,11 +57,24 @@
 	font-size: 16px;
 	background: rgb(119, 40, 73, .8);
 	letter-spacing: 3px;
-	margin-top: 40px;
+	margin-top: 50px;
 	padding: 14px 20px;
 }
 .btn:hover {
     color: #fbf7e2;
     text-decoration: none;
     background: rgb(119, 40, 73);
+}
+.product{
+	padding: 20px;
+	border: 1px solid grey;
+	border: 1px solid #BFBFBF;
+	box-shadow: 10px 10px 5px #aaaaaa;
+	margin: 30px;
+	background: #fff;
+}
+footer{
+	height: 50px;
+	background: #772849;
+	margin-top: 40px;
 }
